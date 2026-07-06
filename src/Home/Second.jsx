@@ -12,7 +12,7 @@ const Second = () => {
                     <p className='font-bold text-3xl '>50% </p>
                     <p className='font-bold text-2xl '>Let's Explore The World</p>
                     <p><i class="fa-solid fa-location-dot "></i>Maldives</p>
-                    <button className='text-white bg-orange-500 rounded-full w-[200px] mt-[20px] h-[40px] hover:font-bold hover:bg-orange-600 hover:text-white active:text-white transition-all cursor-pointer duration-500  active:bg-orange-800' onClick={() => setCount(count + 1)}>Book Now</button>
+                    
                 </div>
            
                 <div className='h-[250px] w-[450px] pt-[50px] animate-bounce opacity-100 bg-cover bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-fR0pgmR66JRHW1unAQxuiJJMPkZptWWiy7MLHVOEEdR8Hntbuy4ls_O&s=10)] ml-[50px]'>
@@ -20,7 +20,7 @@ const Second = () => {
                     <p className='font-bold text-3xl '>20% </p>
                     <p className='font-bold text-2xl '>Let's Explore The World</p>
                     <p><i class="fa-solid fa-location-dot "></i>Tokyo, Japan</p>
-                    <button className='text-white bg-orange-500 rounded-full w-[200px] mt-[20px] h-[40px] hover:font-bold hover:bg-orange-600 hover:text-white active:text-white transition-all cursor-pointer duration-500  active:bg-orange-800' onClick={() => setCount(count + 1)}>Book Now</button>
+
                 </div>
            
         </div>
